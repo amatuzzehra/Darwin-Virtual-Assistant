@@ -142,8 +142,8 @@ def display():
     screen.title("Darwin")
     screen.geometry("300x300") 
     screen.iconbitmap(r'C:\Users\Pc\Desktop\Projects\Darwin-Virtual-Assistant\logo.ico') 
-    name_label = Label(text = "Darwin",width = 300, bg = "black", fg="white", font = ("Calibri", 13))
-    name_label.pack()
+    name_label = Label(text = "Darwin",width = 300, bg = "black", fg="white", font = ("Calibri", 13)) 
+    name_label.pack() 
 
     microphone_photo = PhotoImage(file = "va.png") 
     microphone_button = Button(image=microphone_photo, command = processAudio) 
